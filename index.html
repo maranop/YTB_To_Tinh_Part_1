@@ -190,18 +190,18 @@
                     el.attr("data-status", 4);
                 break;
                 case 4:
-                    el.text("EM CÓ");
+                    el.text("Cho 10 điểm");
                     el.attr("data-status", 5);
-                    $("button[data-status=1]").text("KHÔNG");
+                    $("button[data-status=1]").text("Không cho");
                     $("button[data-status=1]").attr("data-status", 6);
                 break;
                 case 5:
                      if(mobi) setTimeout(function(){$("#myLove").modal()},1000);
                 break;
                 case 6:
-                    el.text("EM CÓ");
+                    el.text("Cho 10 điểm");
                     el.attr("data-status", 1);
-                    $("button[data-status=5]").text("KHÔNG");
+                    $("button[data-status=5]").text("Không cho");
                     $("button[data-status=5]").attr("data-status", 2);
                 break;
 
